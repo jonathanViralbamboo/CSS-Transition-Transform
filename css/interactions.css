@@ -5,13 +5,24 @@
 .button {
 	color: #fff;
 	background: #4a89ca;
-	transition-duration: 1s;
+	transition-duration: .4s;
+	transition-property: background; /* Ensures only background is transitioned */
 }
 
 .button:hover {
 	background: #d36a62;
 }
 
+img:hover {
+	opacity: 0;
+	transition-duration: .4s;
+}
+
 /* =================================
   Photo Overlay Transitions
 ==================================== */
+
+.photo-overlay:hover {
+	opacity: 100;
+	transition-duration: .5s;
+}
