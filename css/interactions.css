@@ -17,12 +17,3 @@ img:hover {
 	opacity: 0;
 	transition-duration: .4s;
 }
-
-/* =================================
-  Photo Overlay Transitions
-==================================== */
-
-.photo-overlay:hover {
-	opacity: 100;
-	transition-duration: .5s;
-}
