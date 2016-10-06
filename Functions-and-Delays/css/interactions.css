@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Photo Overlay Transition
 ==================================== */
 
@@ -11,7 +11,18 @@
 	opacity: 1;
 }
 
-/* ================================= 
+/* =================================
   Button Transitions
 ==================================== */
 
+.btn-icon {
+	transition-property: opacity, left;
+	transition-duration: .5s;
+	transition-delay: .3s;
+	transition-timing-function: ease-in-out;
+}
+
+.button:hover .btn-icon {
+	opacity: 1;
+	left: 80%;
+}
