@@ -13,7 +13,11 @@
   Photo 3D Transforms & Transitions
 ==================================== */
 
-.content {
+/*.content {
+	perspective: 700px;
+}*/
+
+.photo-container {
 	perspective: 700px;
 }
 
